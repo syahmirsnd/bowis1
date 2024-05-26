@@ -1,0 +1,50 @@
+/* Custom CSS for Bowis website */
+
+/* Header */
+.logo {
+    max-width: 150px; /* Atur lebar maksimum logo */
+    height: auto; /* Sesuaikan tinggi agar logo tetap proporsional */
+}
+
+/* Navigation */
+nav {
+    background-color: #ddd; /* Light gray background for navigation */
+    padding: 10px 0;
+}
+
+.nav-pills .nav-link {
+    color: #333; /* Dark gray color for navigation links */
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #ccc; /* Light gray background on hover for navigation links */
+}
+
+
+/* Main Content */
+h1 {
+    color: #333; /* Warna teks judul */
+}
+
+p {
+    color: #666; /* Warna teks paragraf */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Warna latar tombol utama */
+    border-color: #007bff; /* Warna border tombol utama */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna latar tombol utama saat dihover */
+    border-color: #0056b3; /* Warna border tombol utama saat dihover */
+}
+
+/* Footer */
+footer {
+    text-align: center; /* Posisi teks di tengah footer */
+}
+
+footer p {
+    margin-bottom: 1px; /* Hapus margin bawah dari paragraf dalam footer */
+}

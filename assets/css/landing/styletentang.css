@@ -1,0 +1,84 @@
+/* styletentang.css */
+
+/* Styling untuk judul */
+h1 {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk konten teks */
+p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Styling untuk daftar kontak */
+.contact-info li {
+    list-style-type: none;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Styling untuk footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #888;
+    font-size: 14px;
+}
+
+
+/* styletentang.css */
+
+/* Styling untuk judul */
+h1 {
+    color: #333;
+}
+
+/* Styling untuk konten teks */
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* Styling untuk footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* Ubah ke relative agar tidak menutupi tombol submit */
+    bottom: 0;
+    width: 100%;
+    z-index: 0; /* Atur z-index ke angka lebih rendah dari elemen form */
+}
+
+/* Styling untuk form */
+form {
+    position: relative; /* Atur posisi form menjadi relative */
+    z-index: 1; /* Atur z-index form lebih tinggi daripada footer */
+}
+
+
+
+.persection {
+    background-color: #f0f0f0; /* Warna abu-abu muda */
+    padding: 20px; /* Tambahkan ruang di sekitar konten persection */
+    margin-top: 20px; /* Tambahkan jarak antara bagian atas halaman dan persection */
+}
+
+/* Styling untuk garis horizontal */
+.divider {
+    border: none; /* Hilangkan border */
+    height: 1px; /* Set tinggi garis */
+    background-color: #ddd; /* Warna abu-abu untuk garis */
+    margin-top: 20px; /* Tambahkan jarak antara bagian atas persection dan garis */
+    margin-bottom: 20px; /* Tambahkan jarak antara garis dan persection berikutnya */
+}
